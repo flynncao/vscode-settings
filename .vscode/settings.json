@@ -1,0 +1,88 @@
+{
+  // Visuals
+  "workbench.colorTheme": "Visual Studio Dark", // whatever you like
+  "workbench.activityBar.visible": true,
+  "terminal.integrated.fontFamily": "Hasklug Nerd Font Mono", // For beautify terminal only (optional)
+  "workbench.editor.enablePreview": false,
+  "workbench.list.smoothScrolling": true,
+  // Editor
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": false,
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.lineNumbers": "on",
+  "editor.hover.sticky": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontSize": 17.5,
+  "editor.wordWrap": "on",
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.renderWhitespace": "boundary",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
+    "source.organizeImports": false
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": false,
+	// Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.untrackedChanges": "separate",
+  "git.ignoreRebaseWarning": true,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "window.commandCenter": true,
+  "window.autoDetectColorScheme": false,
+  "extensions.ignoreRecommendations": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.simpleDialog.enable": true,
+  // Extension Settings
+  // ErrorLens Config
+  "errorLens.enabledDiagnosticLevels": ["warning", "error"],
+  "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
+  // ESLint config
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  // Prettier Config
+  "[mdx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Vue2 Only
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "auto"
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    }
+  },
+  // User-Scope Settings
+  "vetur.ignoreProjectWarning": true,
+  "security.workspace.trust.untrustedFiles": "newWindow"
+}
