@@ -1,7 +1,7 @@
 # Flynn's VSCode Settings
 
 [settings](./.vscode/settings.json)
-
+[extensions](./.vscode/extensions.json)
 ## Introduction
 
 ### Settings

@@ -1,0 +1,61 @@
+{
+	"recommendations": [
+		// Themes  & Icons
+		"antfu.theme-vitesse", 
+		"file-icons.file-icons",
+		"PKief.material-icon-theme", 
+		// Editor
+		"mpontus.tab-cycle",
+		// Git
+		"mhutchie.git-graph",
+		"GitHub.vscode-pull-request-github",
+		"eamodio.gitlens",
+		"pflannery.vscode-versionlens",
+		// JS & TS 
+		"dsznajder.es7-react-js-snippets",
+		"MariusAlchimavicius.json-to-ts",
+		// HTML 
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag",
+		"yandeu.five-server",
+		// CSS 
+		"antfu.iconify",
+		"antfu.unocss",
+		"SimonSiefke.svg-preview",
+		"lokalise.i18n-ally",
+		"bradlc.vscode-tailwindcss",
+		"Zarifprogrammer.tailwind-snippets",
+		// Vue
+		"octref.vetur", // Vue2 Only
+		"Vue.volar",
+		"dariofuzinato.vue-peek",
+		// React
+		"rodrigovallades.es7-react-js-snippets",
+		// Module Bundler
+		"amodio.tsl-problem-matcher",
+		// Linter & Formatter
+		"dbaeumer.vscode-eslint", 
+		"streetsidesoftware.code-spell-checker", 
+		"usernamehw.errorlens",
+		// Markdown & Blog 
+		"yzhang.markdown-all-in-one",
+		"fantasy.vscode-hexo-utils",
+		"humbinal.hexo-fromt-matter",
+		"unifiedjs.vscode-mdx", // mdx language support 
+		// Up to you
+		"lipinghai.Star", // Star you file
+		"GitHub.copilot", // Help you write code faster and with less work
+		"GitHub.copilot-labs",
+		"GitHub.remotehub",
+		"ms-vscode.remote-repositories", // Remotely browse and edit git repositories
+		"aaravb.chrome-extension-developer-tools",
+		"ren-wei.echarts-enhanced-completion",
+		"SS.element-ui-snippets",
+		"pretttier.prettier-vscode", 
+		"esbenp.prettier-vscode", // If you want to work with Prettier when using ESLint
+		"oliversturm.fix-json", 
+		"richie5um2.vscode-sort-json",
+		"shyykoserhiy.vscode-spotify",
+		"WakaTime.vscode-wakatime", // Track your coding time
+	]
+}
